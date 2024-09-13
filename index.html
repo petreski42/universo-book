@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>UNIVERSO'S BOOK</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "reset.css">
+    <link rel = "stylesheet" href = "header.css">
 </head>
+
+<header class = "cabecalho">
+   
+    <div class = "container">
+
+        <!--ADICIONAR A TAG INPUT AQUI-->
+        <input type = "checkbox" id = "menu" placeholder = "Categorias">
+
+        <!--ADICIONAR A TAG LABEL AQUI-->
+        <label for = "menu">
+            <span class = "cabecalho__menu-hamburguer"></span>
+        </label>
+
+        <!--ADICIONAR AS TAGS DE LISTA AQUI-->
+        <ul class = "lista-menu"
+          <ul class = "lista-menu__titulo">CATEGORIAS</ul>
+        <a href = "#" class = "lista-menu__link"> <li class = "lista-menu__item">Programação</li> </a>
+        <a href = "#" class = "lista-menu__link"> <li class = "lista-menu__item">Romance</li> </a>
+        <a href = "#" class = "lista-menu__link"> <li class = "lista-menu__item">Ficção Científica</li> </a>  
+        <a href = "#" class = "lista-menu__link"> <li class = "lista-menu__item">Diversos</li> </a>      
+            <a href = "#"> <img src = "IMG/Logo.svg" alt = "logotipo do aplicativo"> </a>
+
+    </div>
+
+    <div class ="container">
+       <a href = "#"> <img src = "IMG/Favoritos.svg" alt = "favoritos" class = "container__imagem"> </a>
+       <a href = "#"> <img src = "IMG/Compras.svg"  alt = "sacola de compras"> </a>
+       <a href = "#"> <img src = "IMG/Usuário.svg" alt = "meu perfil"> </a>
+    </div>
+
+</header>
+
 <body>
-     <h1>Universo's Book</h1>
-     <p>Aqui vocẽ encontra o livro que precisa!</p>
+    <h1>Universo's Book</h1>
+    <p>Aqui você encontra o livro que você precisa!</p>
 </body>
 </html>
